@@ -13,5 +13,5 @@ function Get-DiskInfo {
         New-Object -Type PSObject -Prop $props
        } #foreach $host
      } #foreach $domain
-   } #function
+   } 
    
